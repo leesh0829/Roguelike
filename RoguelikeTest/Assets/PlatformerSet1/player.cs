@@ -2,15 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player : MonoBehaviour
+public class Player : MonoBehaviour
 {
-    public float move_sp = 0.1f;
-   void Start()    
-   {
-    
-   }
+   public static Player instance;
 
-   void Update()
+   public float move_sp = 0.1f;
+
+    public float cur_HP = 0;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    void Update()
    {
      if(Input.GetKey(KeyCode.W)) {
             transform.Translate(0,move_sp,0);
