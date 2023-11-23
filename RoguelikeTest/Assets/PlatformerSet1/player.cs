@@ -15,6 +15,9 @@ public class player : MonoBehaviour
      if(Input.GetKey(KeyCode.W)) {
             transform.Translate(0,move_sp,0);
         }
+         if(Input.GetKey(KeyCode.S)) {
+            transform.Translate(0,-move_sp,0);
+        }
         if(Input.GetKey(KeyCode.D)) {
             transform.Translate(move_sp,0,0);
         }
