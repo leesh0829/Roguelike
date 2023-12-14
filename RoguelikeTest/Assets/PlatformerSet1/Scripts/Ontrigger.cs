@@ -7,7 +7,7 @@ public class Ontrigger : MonoBehaviour
 {
     public RandomMap RandomMaps;
     private void OnTriggerEnter2D(Collider2D other) {
-            if(RandomMaps.Room_count < 10) {
+            if(RandomMaps.Room_count < 9) {
             Debug.Log("닿음");
             RandomMaps.Nextmap();
             }
