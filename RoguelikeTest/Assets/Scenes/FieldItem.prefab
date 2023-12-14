@@ -102,7 +102,7 @@ MonoBehaviour:
   item:
     itemType: 0
     itemName: 
-    itemImage: {fileID: 0}
+    itemImage: {fileID: 624290228, guid: 6d28f55f1b0572546b2632db94416d69, type: 3}
   image: {fileID: 0}
 --- !u!50 &4184992261314128747
 Rigidbody2D:
@@ -119,7 +119,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

@@ -10,4 +10,11 @@ public class ItemDatabase : MonoBehaviour
         instance = this; 
     }
     public List<Item> itemDB = new List<Item>();
+    public List<slot> slotDB = new();
+
+
+    public void GetItem()
+    {
+        slotDB[0].
+    }
 }
